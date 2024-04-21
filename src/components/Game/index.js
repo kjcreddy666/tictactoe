@@ -15,7 +15,7 @@ const Game = () => {
     const handleOnclick = (index) => {
         setBoxesState(prevState => {
             const newState = [...prevState];
-            newState[index] = { text: player % 2 === 0 ? "X" : "O", className: player % 2 === 0 ? "x" : "o" };
+            newState[index] = { text: player % 2 === 0 ? "X" : "O", className: player % 2 === 0 ? "x comfortaa" : "o comfortaa" };
             return newState;
         });
         setPlayer(player + 1);

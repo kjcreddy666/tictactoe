@@ -1,4 +1,5 @@
 import './index.css';
+import '../../styles/fonts.css';
 import styled from 'styled-components';
 
 const BG = styled.div`
@@ -30,8 +31,8 @@ const Turns = (props) => {
     return (
         <div className="turns">
             <BG className={props.isTranslate ? "translate" : ""}/>
-            <Icon key="0" className={props.isTranslate ? "inactive icon" : "active icon"}> X </Icon>
-            <Icon key="1" className={props.isTranslate ? "active icon" : "inactive icon"}> O </Icon>
+            <Icon key="0" className={props.isTranslate ? "inactive comfortaa" : "active comfortaa"}> X </Icon>
+            <Icon key="1" className={props.isTranslate ? "active comfortaa" : "inactive comfortaa"}> O </Icon>
         </div>
     )
 }   
