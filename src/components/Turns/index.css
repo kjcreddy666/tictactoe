@@ -1,0 +1,18 @@
+.turns {
+    width : 8rem;
+    height : 4rem;
+    display : flex;
+    margin-bottom : 5rem;
+}
+
+.translate {
+    transform: translateX(4rem);
+}
+
+.active {
+    color : #000;
+}
+
+.inactive {
+    color : #fff;
+}

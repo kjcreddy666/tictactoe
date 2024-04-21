@@ -1,0 +1,9 @@
+.square {
+    display : grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    gap : 0.25rem;
+    width : 20.5rem;
+    height : 20.5rem;
+    margin : 1.75rem 0;
+}

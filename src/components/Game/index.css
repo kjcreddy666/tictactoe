@@ -29,16 +29,3 @@ body {
 .o {
     color : #ffa02e;
 }
-
-.translate {
-    transform: translateX(4rem);
-}
-
-.active {
-    color : #000;
-}
-
-.inactive {
-    color : #fff;
-}
-
