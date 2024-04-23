@@ -1,7 +1,7 @@
 {
   "name": "tictactoe",
-  "author" : "Kappeta Jaya Chandra Reddy",
-  "GitHub" : "https://www.github.com/kjcreddy",
+  "author": "Kappeta Jaya Chandra Reddy",
+  "GitHub": "https://www.github.com/kjcreddy",
   "version": "0.1.0",
   "private": true,
   "homepage": "https://kjcreddy666.github.io/tictactoe",
@@ -42,5 +42,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "@babel/plugin-proposal-private-property-in-object": "^7.21.11"
   }
 }
