@@ -3,6 +3,7 @@ import styled from "styled-components";
 const StyledNewGame =  styled.button`
     cursor : pointer;
     color : #fff;
+    font-size : 0.9rem;
     font-weight : 700;
     background-color : transparent;
     border : 2px solid #fff;

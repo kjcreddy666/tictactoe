@@ -12,10 +12,18 @@ body {
     margin : 0px;
 }
 
-.x {
+.opacity {
+    opacity: 0.25;
+}
+
+#no-opacity {
+    opacity : 1;
+}
+
+.x, .X {
     color : #62fffc;
 }
 
-.o {
+.o, .O {
     color : #ffa02e;
 }
