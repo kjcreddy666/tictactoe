@@ -3,7 +3,7 @@ import { Box } from '../Box';
 
 const Square = (props) => {
     const boxes = props.boxesState.map((box, index) => (
-        <Box key={index} onClick={() => props.handleOnclick(index)} className={box.className}>
+        <Box key={index} onClick={() => props.handleOnclick(index)} className={box.className} isDisable={box.isDisable}>
             {box.text}
         </Box>
     ));
