@@ -53,6 +53,14 @@ const NewGame = styled.button`
 
 export const Win = (props) => {
     if(props.gameStatus !== "running") {
+        if(props.gameStatus === "draw") {
+            return (
+                <StyledWin>
+                    <h1 className='inconsolata'> It's a Draw </h1> 
+                    <NewGame onClick={props.reset}>New Game</NewGame>
+                </StyledWin>
+            )
+        }
         return (
             <StyledWin>
                 <h1 className='inconsolata'> Winner is </h1> 
