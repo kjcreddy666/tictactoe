@@ -8,7 +8,6 @@ const StyledWin = styled.div`
     background-color : #222222;
     border : 2px solid #fff;
     border-radius : 0.5rem;
-    box-shadow : 1px 1px 2px ;
     position : absolute;
     top : 25vh;
     display : flex;
